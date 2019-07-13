@@ -1,0 +1,8 @@
+bradycardia,numbness,pain,sweat
+chill,debilitation,dysuria,fever,headache,sneeze
+catatonia,fatigue,pain,snore,tired														
+asthenia,dysuria,fever,hematuria,lethargy
+fever,pain,redness,swelling 	
+ascites,nausea,pain,vomiting														
+chill,diarrhea,fever,hematuria,nausea,pain,vomiting 																
+
