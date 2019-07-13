@@ -40,8 +40,7 @@ Download Hadoop latest available version from its official site at Hadoopmaster 
 ```bash
 # mkdir /opt/hadoop
 # cd /opt/hadoop/
-#wgethttp://www.us.apache.org/dist/hadoop/common/hadoop-
-2.7.2/hadoop-2.7.2.tar.gz
+# wget http://www.us.apache.org/dist/hadoop/common/hadoop-2.7.2/hadoop-2.7.2.tar.gz
 # tar -xzvf hadoop-2.7.2.tar.gz
 # mv hadoop-2.7.2 hadoop
 # chown -R hadoop /opt/hadoop
@@ -209,8 +208,8 @@ hadoop jar jarfilename.jar packageName.ClassName PathToInputTextFile PathToOutpu
 ```
 
 ## Usage: 
-hadoop jar MRapriori.jar apriori.AprioriDriver input.csv output
-
+```hadoop jar MRapriori.jar apriori.AprioriDriver input.csv output
+```
 
 ## Reference:
 Bhattacharya N., Mondal S., Khatua S. (2019) A MapReduce-Based Association Rule Mining Using Hadoop Cluster—An Application of Disease Analysis. In: Saini H., Sayal R., Govardhan A., Buyya R. (eds) Innovations in Computer Science and Engineering. Lecture Notes in Networks and Systems, vol 74. Springer, Singapore
