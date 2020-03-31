@@ -207,8 +207,9 @@ Now we run a JAR file where the input is given as-
 hadoop jar jarfilename.jar packageName.ClassName PathToInputTextFile PathToOutputDirectry
 ```
 
-### Usage: 
-```hadoop jar MRapriori.jar apriori.AprioriDriver input.csv output
+## Usage: 
+```bash
+hadoop jar MRapriori.jar apriori.AprioriDriver input.csv output
 ```
 
 ## Reference:
