@@ -1,6 +1,10 @@
 # MRARM
 A MapReduce-Based Association Rule Mining Using Hadoop Cluster—An Application of Disease Analysis
 
+## Cite:
+Bhattacharya N., Mondal S., Khatua S. (2019) A MapReduce-Based Association Rule Mining Using Hadoop Cluster—An Application of Disease Analysis. In: Saini H., Sayal R., Govardhan A., Buyya R. (eds) Innovations in Computer Science and Engineering. Lecture Notes in Networks and Systems, vol 74. Springer, Singapore
+
+
 ## Prerequisites:
 
 The scripts run on CentOS 7 on a 64Bit machine with JDK version "1.8.0_131". We have used Hadoop version 2.7.2.
@@ -211,7 +215,4 @@ hadoop jar jarfilename.jar packageName.ClassName PathToInputTextFile PathToOutpu
 ```bash
 hadoop jar MRapriori.jar apriori.AprioriDriver input.csv output
 ```
-
-## Reference:
-Bhattacharya N., Mondal S., Khatua S. (2019) A MapReduce-Based Association Rule Mining Using Hadoop Cluster—An Application of Disease Analysis. In: Saini H., Sayal R., Govardhan A., Buyya R. (eds) Innovations in Computer Science and Engineering. Lecture Notes in Networks and Systems, vol 74. Springer, Singapore
 
